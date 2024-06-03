@@ -22,7 +22,7 @@ function draw() {
     }
     check_sketch();
     if (drawn_sketch == sketch) {
-        timer_counter = 0;
+        
         answer_holder = "set";
         score = score + 1;
         document.getElementById("score").innerHTML = "Score: " + score;
